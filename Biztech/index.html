@@ -184,8 +184,21 @@
 			<main class="content bg-top-center bg-cover bg-white" id="lqd-site-content">
 				<div id="lqd-contents-wrap">
 
-					<!-- Start Banner -->
-					<section class="lqd-section min-h-100vh flex flex-col items-center justify-center banner bg-transparent bg-center bg-cover sm:justify-end" data-custom-animations="true" data-ca-options='{ "addChildTimelines":false,"animationTarget" : ".col", "ease":["power4.out"],"initValues":{ "y" : "40px", "opacity":0},"animations":{ "y" : "0px", "opacity":1}}' style="background-image: url(./assets/images/demo/events-hub/banner.jpg);">
+					<!-- Start Banner--->
+					<section class="lqd-section min-h-100vh flex flex-col items-center justify-center banner bg-transparent bg-center bg-cover sm:justify-end" 
+					data-custom-animations="true" 
+					data-ca-options='{ "addChildTimelines":false,"animationTarget" : ".col", "ease":["power4.out"],"initValues":{ "y" : "40px", "opacity":0},"animations":{ "y" : "0px", "opacity":1}}' style="background-image: url(./assets/images/demo/events-hub/banner.jpg);">
+						
+						  <!-- Video Background -->
+						<div class="video-container absolute inset-0 w-full h-full overflow-hidden">
+							<video autoplay muted loop playsinline class="video-bg absolute inset-0 w-full h-full object-cover">
+							<source src="assets/videos/5529396-hd_1920_1080_30fps.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+
+							<!-- Blur Overlay -->
+							<div class="video-blur absolute inset-0 w-full h-full" style="background: rgba(0, 0, 0, 0.3); backdrop-filter: blur(6px);"></div>
+						</div>
 						<div class="container">
 							<div class="row">
 								<div class="col col-12 text-center">
