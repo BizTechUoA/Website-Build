@@ -1,0 +1,34 @@
+/* Style for the Back to Top button */
+.back-to-top {
+    position: fixed; /* Fixed position relative to the viewport */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px;  /* Distance from the right of the viewport */
+    background-color: #ec9454; /* Background color */
+    color: #fff;   /* Text color */
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px #b7652a;
+    display: none; /* Initially hidden */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+.back-to-top:hover {
+    background-color: #ffac71; /* Change color on hover */
+    transform: scale(1.1); /* Slightly scale up on hover */
+}
+
+.arrow-up {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px; /* Adjust for smaller screens */
+        right: 15px;
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
