@@ -19,3 +19,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function closePopup() {
+    // Assuming you're using a modal, find and hide the modal or popup.
+    var popup = document.querySelector('.your-popup-selector'); // Replace with your actual popup selector.
+    if (popup) {
+        popup.style.display = 'none'; // Or use a proper hide function based on your popup implementation.
+    }
+
+    // Optionally scroll to the events section smoothly.
+    document.querySelector('#events').scrollIntoView({ behavior: 'smooth' });
+}
