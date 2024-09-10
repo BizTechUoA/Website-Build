@@ -1184,33 +1184,34 @@
 					<!-- Start Subscribe -->
 					<section class="lqd-section subscribe transition-all border-top border-black-10 py-10">
 						<div class="container">
-							<div class="row items-center">
-								<div class="col col-12 col-md-6 col-xl-8">
-									<h3 class="ld-fh-element relative m-0 text-20"> Subscribe to our newsletter.</h3>
-								</div>
-								<!-- /.col col-12 col-md-6 col-xl-8 -->
-								<div class="col col-12 col-md-6 col-xl-4">
-									<div class="ld-sf ld-sf--input-bordered ld-sf--button-solid ld-sf--button-eql ld-sf--size-lg ld-sf--circle ld-sf--inputs-has-border ld-sf--border-thick ld-sf--button-show ld-sf--button-inline">
-										<form method="post" action="#">
-											<p>
-												<input type="email" class="w-full border-primary text-16 text-primary" name="email" placeholder="Your email to start">
-											</p>
-											<button type="submit" class="inline-flex items-center justify-center bg-primary hover:bg-accent">
-												<span class="submit-icon text-24">
-													<i class="lqd-icn-ess icon-ion-ios-arrow-forward"></i>
-												</span>
-												<span class="ld-sf-spinner absolute">
-													<span>Sending </span>
-												</span>
-											</button>
-										</form>
-										<div class="ld_sf_response"></div>
-									</div>
-								</div>
-								<!-- /.col col-12 col-md-6 col-xl-4 -->
+						  <div class="row items-center">
+							<div class="col col-12 col-md-6 col-xl-8">
+							  <h3 class="ld-fh-element relative m-0 text-20">Subscribe to our newsletter.</h3>
 							</div>
+							<!-- /.col col-12 col-md-6 col-xl-8 -->
+							<div class="col col-12 col-md-6 col-xl-4">
+							  <div class="ld-sf ld-sf--input-bordered ld-sf--button-solid ld-sf--button-eql ld-sf--size-lg ld-sf--circle ld-sf--inputs-has-border ld-sf--border-thick ld-sf--button-show ld-sf--button-inline">
+								<form id="subscribeForm" method="post" action="./assets/php/subscribe.php">
+								  <p>
+									<input type="email" class="w-full border-primary text-16 text-primary" name="email" id="email" placeholder="Your email to start" required>
+								  </p>
+								  <button type="submit" class="inline-flex items-center justify-center bg-primary hover:bg-accent">
+									<span class="submit-icon text-24">
+									  <i class="lqd-icn-ess icon-ion-ios-arrow-forward"></i>
+									</span>
+									<span class="ld-sf-spinner absolute">
+									  <span>Sending</span>
+									</span>
+								  </button>
+								</form>
+								<div class="ld_sf_response"></div>
+							  </div>
+							</div>
+							<!-- /.col col-12 col-md-6 col-xl-4 -->
+						  </div>
 						</div>
-					</section>
+					  </section>
+					  
 					<!-- End Subscribe -->
 
 				</div>
