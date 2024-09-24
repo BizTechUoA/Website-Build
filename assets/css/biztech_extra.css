@@ -32,3 +32,24 @@
         font-size: 16px; /* Adjust font size for smaller screens */
     }
 }
+
+.blurred-image {
+    background-image: url(./assets/images/event/Award_Homepage.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* adjust as needed */
+    height: 500px; /* adjust as needed */
+    position: relative;
+    filter: blur(5px); /* Adjust the blur level */
+  }
+  
+  .blurred-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with transparency */
+  }
+  
