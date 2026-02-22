@@ -3,9 +3,10 @@ This is the repository built for the creation and management of the BizTech Soci
 
 The team of developers for this project are as follows:
 
-Vishesh Azad - Tech Lead
-Jerry Nguyen - Tech Lead
-Bethany Yates - Tech Team Member
-Noah Borton - Tech Team Member
+Adia - Lead
+Savyo - Designer
+Bliss - Designer
+Andie - Designer
+Nandini - Coordinator
 
 The creation of this website is being built for the co-presidents of the BizTech Society UoA club. 
