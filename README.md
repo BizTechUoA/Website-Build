@@ -8,5 +8,6 @@ Savyo - Designer
 Bliss - Designer
 Andie - Designer
 Nandini - Coordinator
+Hayden - Developer
 
 The creation of this website is being built for the co-presidents of the BizTech Society UoA club. 
