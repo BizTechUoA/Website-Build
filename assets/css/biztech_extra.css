@@ -53,4 +53,61 @@
     background-color: rgba(0, 0, 0, 0.5); /* Black overlay with transparency */
   }
   
-  
+.logo-button {
+    width: 180px;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.member-perk-deal {
+    font-size: 22px;
+    font-weight: 700;
+    color: #044abc;
+    white-space: pre-line;
+}
+
+#agenda .one-roadmap-item {
+    min-height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#agenda .one-roadmap-info h6 {
+    margin-bottom: 6px;
+}
+
+#agenda .one-roadmap-inner {
+    position: relative;
+}
+
+#agenda .one-roadmap-bar {
+    display: none !important;
+}
+
+#agenda .one-roadmap-inner::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 30px;
+    bottom: 30px;
+    width: 2px;
+    background: #7b18ff;
+}
+
+#agenda .one-roadmap-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #7b18ff;
+    z-index: 2;
+}
